@@ -20,8 +20,7 @@ namespace FactoryPattern
                 case 18:
                     return new BigRig();
                 default:
-                    Console.WriteLine("There isnt a vehile with that number of tires.");
-                    return null;
+                    return new Car();
             }
         }
     }
